@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 header {
     display: flex;
     align-items: center;
@@ -65,7 +71,82 @@ header {
     padding: 2px 6px;
   }
 
-  
- 
+  .categorias .menu {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
 
+.img-desconto{
+    background-color: #E7E7EA;
+    margin: auto;
+    width: 100%;
+    text-align: center;
     
+}
+
+
+.produto{
+    width: 50%;
+    height: 50%;
+    /* carrossel*/
+}
+.lancamentos {
+    padding: 20px; /* Espaço em todos os lados */
+  padding-left: 40px; /* Ou mais se quiser afastar mais da lateral esquerda */
+  padding-right: 40px;
+}
+
+.carrossel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.carrossel {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px 0;
+}
+
+.produto {
+    min-width: 180px;
+    flex: 0 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.produto img {
+    
+    width: 140px; /* ou o valor que você quiser, tipo 120px, 100px */
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 8px;
+
+}
+
+.carrossel-btn {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 1;
+    padding: 0 10px;
+}
+
+.carrossel-btn.esquerda {
+    position: absolute;
+    left: 0;
+}
+
+.carrossel-btn.direita {
+    position: absolute;
+    right: 0;
+}
