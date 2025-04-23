@@ -60,7 +60,7 @@ header {
   }
   
   .fi-ss-shopping-cart::after {
-    content: "2"; /* Exemplo de número de itens */
+    content: ; /* Exemplo de número de itens */
     position: absolute;
     top: -8px;
     right: -8px;
