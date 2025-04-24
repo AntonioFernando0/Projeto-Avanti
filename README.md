@@ -1,4 +1,4 @@
-# Nome do Projeto
+# E-commerce
 
 Projeto desenvolvido para empresa Avanti como teste técnico para a vaga de estágio
 
@@ -14,15 +14,18 @@ Projeto desenvolvido para empresa Avanti como teste técnico para a vaga de est�
 
 ![Print do projeto](imgreadme/foto1.png)
 ![Print do projeto](imgreadme/foto2.png)
-![Print do projeto](imgreadme/foto3.png)
 ![Print do projeto](imgreadme/foto4.png)
 
-## Autor
+![Print do projeto](imgreadme/foto3.png)
 
-Feito com 💻 por Antonio Fernando Santana Pinho Júnior. 
+ 
 ## Ferramentas utilizadas
 
 - IA
 - W3Scholl
 - Google
 - Documentação de CSS e HTML5
+
+## Autor
+
+Feito com 💻 por Antonio Fernando Santana Pinho Júnior.
