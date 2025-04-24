@@ -86,14 +86,18 @@ header {
 
 
 .produto{
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: 20%;
     /* carrossel*/
 }
 .lancamentos {
-    padding: 20px; /* Espaço em todos os lados */
-  padding-left: 40px; /* Ou mais se quiser afastar mais da lateral esquerda */
-  padding-right: 40px;
+  padding: 20px 40px;
+  text-align: center;
+  width: 90%;
+  margin: 40px auto; /* Centraliza e adiciona espaço externo */
+  background-color: #f8f9fa; /* opcional: fundo claro pra destacar */
+  border-radius: 8px; /* opcional: cantos arredondados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* opcional: sombra leve */
 }
 
 .carrossel-container {
@@ -149,4 +153,185 @@ header {
 .carrossel-btn.direita {
     position: absolute;
     right: 0;
+}
+.img-xicara {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+     
+  padding: 40px;
+}
+
+.img-xicara > div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 960px; 
+  width: 100%;      
+}
+
+.imagem img {
+  max-width: 400px; 
+  width: 100%;
+  height: auto;
+}
+
+.texto {
+  max-width: 500px; /* ajusta o limite do texto */
+  text-align: left;
+}
+
+.img-comida{
+
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  align-items: center;     /* centraliza verticalmente */
+      /* ocupa a altura inteira da tela */
+  padding: 40px;
+  background-color: #f5f5f5;
+}
+
+
+.img-comida > div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 960px; 
+  width: 100%;      
+}
+
+
+.cadastro {
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  max-width: 1000px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cadastro h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.cadastro span {
+  color: #007bff;
+}
+
+.cadastro1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap; /* permite quebrar para baixo em telas pequenas */
+}
+
+.cadastro1 input[type="text"],
+.cadastro1 input[type="email"] {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  min-width: 200px;
+}
+
+.cadastro1 label {
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+  gap: 8px;
+}
+
+.cadastro1 button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cadastro1 button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.footer1 {
+  background-color: #f5f5f5;
+  color: #b6b3b3;
+  padding: 40px 20px;
+  font-size: 0.875rem; /* letras pequenas */
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1 1 200px;
+}
+
+.footer-section h4, .footer-section h2 {
+  color: rgb(75, 73, 73);
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.footer-section p {
+  margin: 6px 0;
+}
+
+.logo-social h2 {
+  font-size: 1.8rem;
+  color: rgb(75, 73, 73);
+}
+
+.social-icons a {
+  margin-right: 10px;
+  font-size: 1.2rem;
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+.payment-icons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.payment-icons img {
+  height: 30px;
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+
+.payment-icons img:hover {
+  filter: grayscale(0%);
+}
+
+footer {
+  background-color: #000;
+  color: #777;
+  font-size: 0.75rem;
+  padding: 20px;
+  text-align: center;
 }
